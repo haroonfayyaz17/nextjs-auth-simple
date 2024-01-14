@@ -1,6 +1,6 @@
 // pages/signup.js
 
-import SignInSignUpForm from "@/Components/SignInSignUpForm";
+import SignInSignUpForm from "@/components/SignInSignUpForm";
 
 const SignUp = () => <SignInSignUpForm type="signup" />;
 
