@@ -51,9 +51,6 @@ const SignInSignUpForm = ({ type }) => {
 
     const BASE_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 
-    console.log(formData);
-
-    console.log(process.env.NEXT_PUBLIC_BACKEND_URL);
     resetStates();
 
     fetch(BASE_URL + url, {
